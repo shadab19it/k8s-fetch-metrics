@@ -1,0 +1,20 @@
+{
+  "name": "k8s-client-backend",
+  "version": "1.0.0",
+  "description": "a messenger clone",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon fetchMetric.js"
+  },
+  "author": "Shadab",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5",
+    "parse-prometheus-text-format": "^1.1.1"
+  }
+}
